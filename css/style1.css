@@ -1,0 +1,67 @@
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	font-size:12px;
+}
+.notice{
+	width:298px;
+	height:98px;
+	margin:10px;
+	border:1px solid #eee;
+	overflow:hidden;
+}
+.notice-tit{
+	height:27px;
+	position:relative;
+	background:#F7F7F7;
+}
+.notice-tit ul{
+	position:absolute;
+	width:301px;/*边上又加一边框，左右共两个像素*/
+	left:-1px;
+}
+.notice-tit li{
+	float:left; /*将li排成横排一排*/
+	width:58px;/*298除以5*/
+	height:26px;
+	line-height:26px;
+	text-align:center;
+	overflow:hidden;
+	background:#FFF;
+	padding:0 1px;
+	border-bottom:1px solid #eee;
+	background-color:#F7F7F7;
+
+}
+.notice-tit li.select{
+	background:#FFF;
+	border-bottom-color:#FFF;/*划过时底边框消失，为白色就行*/
+	border-left:1px solid #eee;
+	border-right:1px solid #eee;
+	padding:0;/*加边框之后把填充去掉，不然li尺寸改变，跑到下面一行*/
+    font-weight:bolder;
+}
+
+.notice li a:link,.notice li a:visited{
+	text-decoration:none;
+	color:#000;
+}
+.notice li a:hover{
+	 color:#f90;
+}
+
+.notice-con .mod {
+	margin:10px 6px;
+
+}
+
+.notice-con .mod ul li{ 
+	float:left;
+	width:143px;
+	height:25px;
+	overflow:hidden;
+	}
+
+
+
